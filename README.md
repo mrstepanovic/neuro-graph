@@ -20,7 +20,7 @@ Bespoke for the [Frontotemporal Disorders Unit](http://www.nmr.mgh.harvard.edu/~
 - Decide on input and output filetypes
 - Plan a data flow chart
 
-# Feature wish list
+# Feature wish list (keep these cited, if possible)
 - Output NLIs, GLIs
 - Contextual links to more information about each measure
 - Save output as file
