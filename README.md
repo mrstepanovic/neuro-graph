@@ -1,4 +1,4 @@
-Graph theory provides a useful way to measure and describe functional network structure in the brain (Gits, 2016). 
+Graph theory provides a useful way to measure and describe functional network structure in the brain [https://quod.lib.umich.edu/cgi/p/pod/dod-idx/relating-connectivity-and-graph-analysis-to-cognitive.pdf?c=mjm;idno=13761231.0001.111]((Gits, 2016)). 
 Unfortunately, a high barrier to entry has hindered its utilization in cognitive neuroscience. Graph Knot offers 
 a streamlined process for analyzing functional networks with graph theory, and in future versions aims to improve
 upon existing visualization methods for functional networks.
