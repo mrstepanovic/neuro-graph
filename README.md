@@ -1,3 +1,4 @@
+# About
 Graph theory provides a useful way to measure and describe functional network structure in the brain ([Gits, 2016][1]).
 Unfortunately, a high barrier to entry has hindered its utilization in cognitive neuroscience. Graph Knot offers 
 a streamlined process for analyzing functional networks with graph theory, and in future versions aims to improve
@@ -7,12 +8,10 @@ Bespoke for the [Frontotemporal Disorders Unit](http://www.nmr.mgh.harvard.edu/~
 
 [1]: http://bit.ly/2jC0AFq 
 
-# Key Literature
-## From Mathematics & Sociology
-## From Neurology
+# Background
 
 # To Do
-- Create Dropbox link for reference literature
+- ~~Create Dropbox link for reference literature~~
 - Review literature
 -- Determine node and graph level indices (NLIs; GLIs) of topical interest
 -- Identify knowledge gaps in the field
