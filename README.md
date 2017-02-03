@@ -9,6 +9,14 @@ Bespoke for the [Frontotemporal Disorders Unit](http://www.nmr.mgh.harvard.edu/~
 [1]: http://bit.ly/2jC0AFq 
 
 # Background
+## Social Network Analysis and Graph Theory
+Almost any system can be represented in terms of entities and the relationships between them. Therefore, it is no surprise that
+contemporary network analysis is the culmination of several fields of academic research. One important tip when analyzing networks
+is being very clear about the terminology being used. For instance, while __graph theory__ is a branch of mathematics that represents 
+entities and relationships as "vertices" and "edges", the sociological field of __social network analysis__ refers to these as "nodes"
+and "ties", or sometimes "actors" and "links".
+
+
 
 # To Do
 - ~~Create Dropbox link for reference literature~~
