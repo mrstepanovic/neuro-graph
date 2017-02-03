@@ -16,9 +16,9 @@ Almost any system can be represented in terms of entities and the relationships 
 
 ## Different Levels of Variables and Analysis
 
-Just as there are multiple levels of analysis in human subjects research, there are multiple levels of analysis in network analysis. A property which describes an individual node is called a node level index (NLI), while a property that describes the entire graph is called a graph level index (GLI). For instance, NLIs can describe how many connections a node has, how many connections its connections have, the average number of steps required to reach all other nodes, and how important that node is to maintain the integrity of the macro-level graph structure. Similarly, GLIs can describe the density of a network's connections, the extent to which a network structure is hierarchical, and the average number of connections all nodes have in the network ([Anderson et al., 1999][5]). There are dozens of NLIs and GLIs, only a fraction of which might be relevant in the context of functional brain connectivity. 
+Just as there are multiple levels of analysis in human subjects research, there are multiple levels of analysis in network analysis. A property which describes an individual node is called a node level index (NLI), while a property that describes the entire graph is called a graph level index (GLI). NLIs tend to describe how important, or "central" a node is based on how many connections it has, how many connections its connections have, the average number of steps it must take to reach all other nodes, and the extent to which it maintains the integrity of the macro-level graph structure ([Freeman, 1979][4]). Similarly, GLIs can describe the density of a network's connections, the extent to which a network structure is hierarchical, and the average number of connections all nodes have in the network ([Anderson et al., 1999][5]). There are dozens of NLIs and GLIs, only a fraction of which might be relevant in the context of functional brain connectivity. In most analysis, GLIs will be of far greater interest than NLIs.
 
-[4]: 
+[4]: http://leonidzhukov.net/hse/2014/socialnetworks/papers/freeman79-centrality.pdf
 [5]: www.cs.cmu.edu/~brigham/papers/social1999.pdf
 
 ## NLIs Used in fcMRI Research
