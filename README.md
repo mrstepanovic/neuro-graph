@@ -9,7 +9,7 @@ Bespoke for the [Frontotemporal Disorders Unit](http://www.nmr.mgh.harvard.edu/~
 ## Graph Theory and Social Network Analysis
 Almost any system can be represented in terms of entities and the relationships between them. Therefore, it is no surprise that contemporary network analysis is the culmination of several fields of academic research. One important tip when analyzing networks is being very clear about the terminology being used. For instance, while __graph theory__ is a branch of mathematics that represents entities and relationships as "vertices" and "edges" ([Dickson, 2006][2]), the sociological field of __social network analysis__ refers to these as "nodes" and "ties", or sometimes "actors" and "links" ([Butts, 2008][3]). Collectively, vertices and edges are referred to as "graphs" or "networks". In the context of analyzing large-scale, functionally connected networks in the brain, we will refer to brain regions as "nodes", relationships between nodes as "connections" and the overall system as a "network". 
 
-![](http://imgur.com/CGNGesS)
+![](http://i.imgur.com/CGNGesS.png)
 
 [2]: https://www.math.utah.edu/mathcircle/notes/MC_Graph_Theory.pdf
 [3]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.455.1587&rep=rep1&type=pdf
