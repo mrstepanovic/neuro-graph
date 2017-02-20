@@ -12,7 +12,7 @@ Almost any system can be represented in terms of entities and the relationships 
 ## How neuro-graph works in the lab's fcMRI analysis ecosystem
 Neuro-graph will use output from the NRG fc-analysis script: the adjacency matrix of Pearson's r values between ROIs. This adjacency matrix represents the strength of connections between all nodes in the network. These values can then be limited by an alpha threshold and used in a neuro-graph analysis. Neuro-graph is built upon R's open source ([statnet][4]) library.
 
-### Analysis routine summarized in [Fellini et al., 2014][5]
+### Overview of Traditional Network Analysis Approach in Neuroscience from [Fellini et al., 2014][5]
 ![Fellini analysis routine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150298/bin/rstb20130521-g1.jpg)
 
 ### Simplified neuro-graph analysis routine
