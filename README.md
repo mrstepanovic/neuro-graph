@@ -73,13 +73,13 @@ __Derived from [Rubinov and Sporns, 2010][12]__
 
 # TODO
 - ~~Create Dropbox link for reference literature~~
-- Review literature
-- Determine node and graph level indices (NLIs; GLIs) of topical interest
+- ~~Review literature~~
+- ~~Determine node and graph level indices (NLIs; GLIs) of topical interest~~
 - Identify knowledge gaps in the field
 - Centralize prereqs for learning these techniques
 - List all assumptions of input data when using this software
 - Decide on input and output filetypes
-- Plan a data flow chart
+- ~~Plan a data flow chart~~
 
 # Feature wish list (keep these cited, if possible)
 - Output NLIs, GLIs
@@ -95,3 +95,8 @@ __Derived from [Rubinov and Sporns, 2010][12]__
 - nodes AND edges
 - enable colorized factors (network subcomponents?)
 - 3D rotation would be nice
+- [Brain Net Viewer on NITRC][18]
+- [Graph Analysis Toolbox Software (for Matlab) on NITRC][19]
+
+[18]:https://www.nitrc.org/projects/bnv
+[19]:https://www.nitrc.org/projects/gat/
