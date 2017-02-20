@@ -32,7 +32,7 @@ Just as there are multiple levels of analysis in human subjects research, there 
 [4]: http://leonidzhukov.net/hse/2014/socialnetworks/papers/freeman79-centrality.pdf
 [5]: www.cs.cmu.edu/~brigham/papers/social1999.pdf
 
-## Indicators Used in Research
+## Indicators Used in Neuroscience Research
 
 __Derived from [Rubinov and Sporns, 2010][6]__
 
