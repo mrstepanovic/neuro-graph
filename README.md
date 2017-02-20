@@ -12,7 +12,7 @@ Almost any system can be represented in terms of entities and the relationships 
 ## How neuro-graph works in the lab's fcMRI analysis ecosystem
 Neuro-graph will use output from the NRG fc-analysis script: the adjacency matrix of Pearson's r values between ROIs. This adjacency matrix represents the strength of connections between all nodes in the network. These values can then be limited by an alpha threshold and used in a neuro-graph analysis. Neuro-graph is built upon R's open source ([statnet][4]) library.
 
-### Analysis routine summarized in [Fellini et al. (2014)][5]
+### Analysis routine summarized in [Fellini et al., 2014][5]
 ![Fellini analysis routine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150298/bin/rstb20130521-g1.jpg)
 
 ### Simplified neuro-graph analysis routine
@@ -32,17 +32,40 @@ Just as there are multiple levels of analysis in human subjects research, there 
 [4]: http://leonidzhukov.net/hse/2014/socialnetworks/papers/freeman79-centrality.pdf
 [5]: www.cs.cmu.edu/~brigham/papers/social1999.pdf
 
-## NLIs Used in fcMRI Research
+## Indicators Used in Research
 
-## GLIs Used in fcMRI Research
+__Derived from [Rubinov and Sporns, 2010][6]__
 
+### Measures of Integration
+* Characteristic path length (Watts and Strogatz, 1998)
+* Global efficiency (Latora and Marchiori, 2001)
+
+### Measures of Segregation
+* Clustering coefficient (Watts and Strogatz, 1998)
+* Transitivity (Newman, 2003)
+* Local efficiency (Latora and Marchiori, 2001)
+* Modularity (Newman, 2004b)
+
+### Measures of Centrality
+* Closeness centrality (Freeman, 1978)
+* Betweenness centrality (Freeman, 1978)
+* Within-module degree z-score (Guimera and Amaral, 2005)
+* Participation coefficient (Guimera and Amaral, 2005)
+
+## Measures of Resilience
+* Degree distribution (Barabasi and Albert, 1999)
+* Average neighbor degree (Pastor-Satorras et al., 2001)
+* Assortativity coefficient (Newman, 2002)
+* Measure of network "small-worldness" (Humphries and Gurney, 2008)
+
+[6]: http://www.sciencedirect.com/science/article/pii/S105381190901074X
 
 # TODO
 - ~~Create Dropbox link for reference literature~~
 - Review literature
--- Determine node and graph level indices (NLIs; GLIs) of topical interest
--- Identify knowledge gaps in the field
--- Centralize prereqs for learning these techniques
+- Determine node and graph level indices (NLIs; GLIs) of topical interest
+- Identify knowledge gaps in the field
+- Centralize prereqs for learning these techniques
 - List all assumptions of input data when using this software
 - Decide on input and output filetypes
 - Plan a data flow chart
@@ -52,12 +75,12 @@ Just as there are multiple levels of analysis in human subjects research, there 
 - Contextual links to more information about each measure
 - Save output as file
 - Automatic atlas-based ROI generation
--- Freesurfer atlases
--- AAL
--- Harvard/Oxford
+- Freesurfer atlases
+- AAL
+- Harvard/Oxford
 - Dynamic network measures?
--- Maybe just cross-sectional tests for modulation
+- Maybe just cross-sectional tests for modulation
 - visualization (the big one)
--- nodes AND edges
--- enable colorized factors (network subcomponents?)
--- 3D rotation would be nice
+- nodes AND edges
+- enable colorized factors (network subcomponents?)
+- 3D rotation would be nice
