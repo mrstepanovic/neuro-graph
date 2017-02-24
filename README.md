@@ -45,7 +45,7 @@ The average distance between any two pairs of nodes, computed for all node pairs
 ![Characterisitc Path Length](http://i.imgur.com/mIk8Aif.jpg)
 
 * __Global efficiency__ ([Latora and Marchiori, 2001][9]).
-A measure of how efficiently a network can exchange information. Comparable to (1/average path length). In our case, imagine an action potential being generated at random for any node. All nodes have an equal probability of generating the AP. How long would it take the AP to diffuse through the entire network? From node E, probably quite quickly. From node G, a bit longer.
+A measure of how efficiently a network can exchange information. Comparable to (1/average path length(_L_)). In our case, imagine an action potential being generated at random for any node. All nodes have an equal probability of generating the AP. How long would it take the AP to diffuse through the entire network? From node E, probably quite quickly. From node G, a bit longer.
 
 [8]:http://www.nature.com/nature/journal/v393/n6684/full/393440a0.html
 [9]:https://www.w3.org/People/Massimo/papers/2001/efficiency_prl_01.pdf
