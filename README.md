@@ -16,7 +16,7 @@ Neuro-graph will use output from the NRG fc-analysis script: the adjacency matri
 ![Fellini analysis routine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150298/bin/rstb20130521-g1.jpg)
 
 ### Simplified neuro-graph analysis routine
-One key output of the NRG fc_analysis tool is an adjacency matrix of Pearson's r and Fisher's r-to-Z values between all ROIs in the analysis. Neuro-graph will accept this matrix as input, which it will use on the underlying graph.
+One key output of the NRG fc_analysis tool is an adjacency matrix of Pearson's r and Fisher's r-to-Z values between all ROIs in the analysis. Neuro-graph will accept this matrix as input (a), which it will use on the underlying graph (b).
 
 ![Matrix to graph](http://i.imgur.com/CcuR1Ec.jpg)
 
