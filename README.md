@@ -40,11 +40,11 @@ We will use the hypothetical network representation above to describe each indic
 
 ### Measures of Integration
 
-* Characteristic path length ([Watts and Strogatz, 1998][8])
+* __Characteristic path length__ ([Watts and Strogatz, 1998][8]).
 The average distance between any two pairs of nodes, computed for all node pairs in the network.
 ![Characterisitc Path Length](http://i.imgur.com/mIk8Aif.jpg)
 
-* Global efficiency ([Latora and Marchiori, 2001][9])
+* __Global efficiency__ ([Latora and Marchiori, 2001][9]).
 A measure of how efficiently a network can exchange information. Comparable to (1/average path length). In our case, imagine an action potential being generated at random for any node. All nodes have an equal probability of generating the AP. How long would it take the AP to diffuse through the entire network? From node E, probably quite quickly. From node G, a bit longer.
 
 [8]:http://www.nature.com/nature/journal/v393/n6684/full/393440a0.html
@@ -52,17 +52,16 @@ A measure of how efficiently a network can exchange information. Comparable to (
 
 ### Measures of Segregation
 
-* Clustering coefficient ([Watts and Strogatz, 1998][8])
+* __Clustering coefficient__ ([Watts and Strogatz, 1998][8]).
 The degree to which nodes tend to cluster together. Essentially calculated as the number of total 2-paths (incompleted triangles) in a graph divided by the number of closed 2-paths (completed triangles). Note: permutations of triangle vertices are calculated as different triangles: A-B-C, B-A-C, and C-A-B count as 3 closed 2-paths.
 ![Clustering Coefficient](http://i.imgur.com/dgAFDtX.jpg)
 
-* Transitivity ([Newman, 2003][10])
+* __Transitivity__ ([Newman, 2003][10]).
 The degree to which two-paths tend to be closed (form a triangle). Differs from clustering coefficient only in the way graph nodes are sampled during calculation. Clustering coefficient is a more common metric in contemporary network science. [http://pages.stat.wisc.edu/~karlrohe/netsci/MeasuringTrianglesInGraphs.pdf][(more info)]
 
-* Local efficiency ([Latora and Marchiori, 2001][9])
+* __Local efficiency__ ([Latora and Marchiori, 2001][9]).
 
-
-* Modularity ([Newman, 2006][11])
+* __Modularity__ ([Newman, 2006][11]).
 Modularity is a quality function whose optimization represents partitioned communities, or clusters, or points. Newman's method computes eigenvectors over an adjacency matrix, resulting in a "modularity matrix" for spectral analysis. Analogous to k-means and k-nearest neighbors clustering. 
 ![Modularity with 3 Modules](http://i.imgur.com/EdBxY7g.jpg)
 
@@ -70,18 +69,18 @@ Modularity is a quality function whose optimization represents partitioned commu
 [11]:http://www.pnas.org/content/103/23/8577.full
 
 ### Measures of Centrality
-* Closeness centrality ([Freeman, 1978][6])
-* Betweenness centrality ([Freeman, 1978][6])
-* Within-module degree z-score ([Guimera and Amaral, 2005][13])
-* Participation coefficient ([Guimera and Amaral, 2005][13])
+* __Closeness centrality__ ([Freeman, 1978][6]).
+* __Betweenness centrality__ ([Freeman, 1978][6]).
+* __Within-module degree z-score__ ([Guimera and Amaral, 2005][13]).
+* __Participation coefficient__ ([Guimera and Amaral, 2005][13]).
 
 [13]:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151742/
 
 ## Measures of Resilience
-* Degree distribution ([Barabasi and Albert, 1999][14])
-* Average neighbor degree ([Pastor-Satorras et al., 2001][15])
-* Assortativity coefficient ([Newman, 2002][16])
-* Measure of network "small-worldness" ([Humphries and Gurney, 2008][17])
+* __Degree distribution__ ([Barabasi and Albert, 1999][14]).
+* __Average neighbor degree__ ([Pastor-Satorras et al., 2001][15]).
+* __Assortativity coefficient__ ([Newman, 2002][16]).
+* __Measure of network "small-worldness"__ ([Humphries and Gurney, 2008][17]).
 
 [14]:http://barabasi.com/f/67.pdf
 [15]:http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.3200
