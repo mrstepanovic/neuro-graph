@@ -40,8 +40,6 @@ We will use the hypothetical network representation above to describe each indic
 
 ### Measures of Integration
 
-![Measures of integration](
-
 * Characteristic path length ([Watts and Strogatz, 1998][8])
 The average distance between any two pairs of nodes.
 
@@ -52,11 +50,14 @@ A measure of how efficiently a network can exchange information. Comparable to (
 [9]:https://www.w3.org/People/Massimo/papers/2001/efficiency_prl_01.pdf
 
 ### Measures of Segregation
+
 * Clustering coefficient ([Watts and Strogatz, 1998][8])
-The degree to which nodes tend to cluster together. Essentially calculated as the number of total 2-paths in a graph divided by the number of closed 2-paths.
+The degree to which nodes tend to cluster together. Essentially calculated as the number of total 2-paths (incompleted triangles) in a graph divided by the number of closed 2-paths (completed triangles). Note: permutations of triangle vertices are calculated as different triangles: A-B-C, B-A-C, and C-A-B count as 3 closed 2-paths.
+
+![Measures of Segregation](http://i.imgur.com/fikqXWy.jpg)
 
 * Transitivity ([Newman, 2003][10])
-The degree to which two-paths tend to be closed (form a triangle). Differs from clustering coefficient in the way graph nodes are sampled during calculation. Clustering coefficient is a more common metric in contemporary network science. [http://pages.stat.wisc.edu/~karlrohe/netsci/MeasuringTrianglesInGraphs.pdf][(more info)]
+The degree to which two-paths tend to be closed (form a triangle). Differs from clustering coefficient only in the way graph nodes are sampled during calculation. Clustering coefficient is a more common metric in contemporary network science. [http://pages.stat.wisc.edu/~karlrohe/netsci/MeasuringTrianglesInGraphs.pdf][(more info)]
 
 * Local efficiency ([Latora and Marchiori, 2001][9])
 
