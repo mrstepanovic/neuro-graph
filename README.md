@@ -18,7 +18,7 @@ Neuro-graph will simplify or even automate this process using existing infrastru
 
 The overall processing routine would be as follows:
 
-![neuro-graph analysis routine](http://i.imgur.com/0jmTtNI.jpg)
+![neuro-graph analysis routine](http://i.imgur.com/KtlvQT1.jpg)
 
 [2]:https://www.math.utah.edu/mathcircle/notes/MC_Graph_Theory.pdf
 [3]:http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.455.1587&rep=rep1&type=pdf
@@ -27,14 +27,14 @@ The overall processing routine would be as follows:
 
 ## Different Levels of Variables and Analysis
 
-Just as there are multiple levels of analysis in human subjects research, there are multiple levels of analysis in network analysis. A property which describes an individual node is called a node level index (NLI), while a property that describes the entire graph is called a graph level index (GLI). NLIs tend to describe how important, or "central" a node is based on how many connections it has, how many connections its connections have, the average number of steps it must take to reach all other nodes, and the extent to which it maintains the integrity of the macro-level graph structure ([Freeman, 1979][4]). Similarly, GLIs can describe the density of a network's connections, the extent to which a network structure is hierarchical, and the average number of connections all nodes have in the network ([Anderson et al., 1999][5]). There are dozens of NLIs and GLIs, only a fraction of which might be relevant in the context of functional brain connectivity. In most analysis, GLIs will be of far greater interest than NLIs.
+Just as there are multiple levels of analysis in human subjects research, there are multiple levels of analysis in network analysis. A property which describes an individual node is called a node level index (NLI), while a property that describes the entire graph is called a graph level index (GLI). NLIs tend to describe how important, or "central" a node is based on how many connections it has, how many connections its connections have, the average number of steps it must take to reach all other nodes, and the extent to which it maintains the integrity of the macro-level graph structure ([Freeman, 1979][4]). Similarly, GLIs can describe the density of a network's connections, the extent to which a network structure is hierarchical, and the average number of connections all nodes have in the network ([Anderson et al., 1999][5]). There are dozens of NLIs and GLIs, only a fraction of which might be relevant in the context of functional brain connectivity. In most analyses, GLIs, or "global network measures", will be of far greater interest. A selection of these indicators are described in the next section.
 
 [6]:http://leonidzhukov.net/hse/2014/socialnetworks/papers/freeman79-centrality.pdf
 [7]:www.cs.cmu.edu/~brigham/papers/social1999.pdf
 
-## Common Indicators Used in Neuroscience Research ([Rubinov and Sporns, 2010][12])
+## Common Network Measures Used in Neuroscience Research ([Rubinov and Sporns, 2010][12])
 
-We will use the hypothetical network representation above to describe each indicator.
+We will use the hypothetical network representation above to describe each indicator below.
 
 [12]: http://www.sciencedirect.com/science/article/pii/S105381190901074X
 
