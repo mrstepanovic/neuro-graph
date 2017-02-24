@@ -41,7 +41,8 @@ We will use the hypothetical network representation above to describe each indic
 ### Measures of Integration
 
 * Characteristic path length ([Watts and Strogatz, 1998][8])
-The average distance between any two pairs of nodes.
+The average distance between any two pairs of nodes, computed for all node pairs in the network.
+![Characterisitc Path Length](http://i.imgur.com/D6wm0Lu.jpg)
 
 * Global efficiency ([Latora and Marchiori, 2001][9])
 A measure of how efficiently a network can exchange information. Comparable to (1/average path length).
