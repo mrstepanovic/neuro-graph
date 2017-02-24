@@ -16,7 +16,13 @@ Neuro-graph will use output from the NRG fc-analysis script: the adjacency matri
 ![Fellini analysis routine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150298/bin/rstb20130521-g1.jpg)
 
 ### Simplified neuro-graph analysis routine
-![neuro-graph analysis routine](http://i.imgur.com/CGNGesS.png)
+One key output of the NRG fc_analysis tool is an adjacency matrix of Pearson's r and Fisher's r-to-Z values between all ROIs in the analysis. Neuro-graph will accept this matrix as input, which it will use on the underlying graph.
+
+![Matrix to graph](http://i.imgur.com/CcuR1Ec.jpg)
+
+The overall processing routine would be as follows:
+
+![neuro-graph analysis routine](http://i.imgur.com/0jmTtNI.jpg)
 
 [2]:https://www.math.utah.edu/mathcircle/notes/MC_Graph_Theory.pdf
 [3]:http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.455.1587&rep=rep1&type=pdf
@@ -30,16 +36,18 @@ Just as there are multiple levels of analysis in human subjects research, there 
 [6]:http://leonidzhukov.net/hse/2014/socialnetworks/papers/freeman79-centrality.pdf
 [7]:www.cs.cmu.edu/~brigham/papers/social1999.pdf
 
-## Indicators Used in Neuroscience Research
+## Common Indicators Used in Neuroscience Research ([Rubinov and Sporns, 2010][12])
 
-__Taken from [Rubinov and Sporns, 2010][12]__
+We will use the hypothetical network representation above to describe each indicator.
 
 [12]: http://www.sciencedirect.com/science/article/pii/S105381190901074X
 
 ### Measures of Integration
+
+![Measures of integration](
+
 * Characteristic path length ([Watts and Strogatz, 1998][8])
 The average distance between any two pairs of nodes.
-![Average path length](http://i.imgur.com/obpaKOk.jpg)
 
 * Global efficiency ([Latora and Marchiori, 2001][9])
 A measure of how efficiently a network can exchange information. Comparable to (1/average path length).
