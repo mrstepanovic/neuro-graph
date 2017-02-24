@@ -7,20 +7,14 @@ Bespoke for the [Frontotemporal Disorders Unit](http://www.nmr.mgh.harvard.edu/~
 
 # Background
 ## Graph Theory and Social Network Analysis
-Almost any system can be represented in terms of entities and the relationships between them. Therefore, it is no surprise that contemporary network analysis is the culmination of several fields of academic research. One important tip when analyzing networks is being very clear about the terminology being used. For instance, while __graph theory__ is a branch of mathematics that represents entities and relationships as "vertices" and "edges" ([Dickson, 2006][2]), the sociological field of __social network analysis__ refers to these as "nodes" and "ties", or sometimes "actors" and "links" ([Butts, 2008][3]). Collectively, vertices and edges are referred to as "graphs" or "networks". In the context of analyzing large-scale, functionally connected networks in the brain, we will refer to brain regions as "nodes", relationships between nodes as "connections" and the overall system as a "network". 
+Almost any system can be represented in terms of entities and the relationships between them. Therefore, it is no surprise that contemporary network analysis is the culmination of several fields of academic research. One important tip when analyzing networks is being very clear about the terminology being used. For instance, while __graph theory__ is a branch of mathematics that represents entities and relationships as "vertices" and "edges" ([Dickson, 2006][2]), the sociological field of __social network analysis__ refers to these as "nodes" and "ties", or sometimes "actors" and "links" ([Butts, 2008][3]). Collectively, vertices and edges are referred to as "graphs" or "networks". In the context of analyzing large-scale, functionally connected networks in the brain, we will refer to brain regions as "nodes", relationships between nodes as "connections" and the overall system as a "network". A review by [Fellini et al. (2014)][5] summarizes the traditional analysis procedure for network data in neuroscience:
 
-## How neuro-graph works in the lab's fcMRI analysis ecosystem
-Neuro-graph will use output from the NRG fc-analysis script: the adjacency matrix of Pearson's r values between ROIs. This adjacency matrix represents the strength of connections between all nodes in the network. These values will be binarized by an a-priori threshold (a) and used to represent the underlying functional network (b). Neuro-graph will accomplish this with the open source ([statnet][4]) library for R.
-
-![Matrix to graph](http://i.imgur.com/CcuR1Ec.jpg)
-
-### Overview of Traditional Network Analysis Approach in Neuroscience from [Fellini et al., 2014][5]
 ![Fellini analysis routine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150298/bin/rstb20130521-g1.jpg)
 
-### Simplified neuro-graph analysis routine
-One key output of the NRG fc_analysis tool is an adjacency matrix of Pearson's r and Fisher's r-to-Z values between all ROIs in the analysis. Neuro-graph will accept this matrix as input (a), which it will use on the underlying graph (b).
+## How neuro-graph works in the lab's fcMRI analysis ecosystem
+Neuro-graph will simplify or even automate this process using existing infrastructure in the Dickerson Neuroimaging Lab and MGH Memory Disorders Unit. For resting-state functional network analysis, it uses output from the NRG fc-analysis script: the adjacency matrix of Pearson's r values between ROIs. This adjacency matrix represents the strength of connections between all nodes in the network. These values will be binarized by an a-priori threshold (a) and used to represent the underlying functional network (b). Neuro-graph will accomplish this with the open source ([statnet][4]) library for R.
 
-
+![Matrix to graph](http://i.imgur.com/CcuR1Ec.jpg)
 
 The overall processing routine would be as follows:
 
