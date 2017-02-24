@@ -63,6 +63,8 @@ The degree to which two-paths tend to be closed (form a triangle). Differs from 
 
 
 * Modularity ([Newman, 2006][11])
+Modularity is a quality function whose optimization represents partitioned communities, or clusters, or points. Newman's method computes eigenvectors over an adjacency matrix, resulting in a "modularity matrix" for spectral analysis. Analogous to k-means and k-nearest neighbors clustering. 
+![Modularity with 3 Modules](http://i.imgur.com/EdBxY7g.jpg)
 
 [10]:http://math.uchicago.edu/~shmuel/Network-course-readings/Newman,%20SIAM.pdf
 [11]:http://www.pnas.org/content/103/23/8577.full
