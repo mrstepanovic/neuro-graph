@@ -42,7 +42,7 @@ We will use the hypothetical network representation above to describe each indic
 
 * Characteristic path length ([Watts and Strogatz, 1998][8])
 The average distance between any two pairs of nodes, computed for all node pairs in the network.
-![Characterisitc Path Length](http://i.imgur.com/D6wm0Lu.jpg)
+![Characterisitc Path Length](http://i.imgur.com/mIk8Aif.jpg)
 
 * Global efficiency ([Latora and Marchiori, 2001][9])
 A measure of how efficiently a network can exchange information. Comparable to (1/average path length). In our case, imagine an action potential being generated at random for any node. All nodes have an equal probability of generating the AP. How long would it take the AP to diffuse through the entire network? From node E, probably quite quickly. From node G, a bit longer.
@@ -54,7 +54,6 @@ A measure of how efficiently a network can exchange information. Comparable to (
 
 * Clustering coefficient ([Watts and Strogatz, 1998][8])
 The degree to which nodes tend to cluster together. Essentially calculated as the number of total 2-paths (incompleted triangles) in a graph divided by the number of closed 2-paths (completed triangles). Note: permutations of triangle vertices are calculated as different triangles: A-B-C, B-A-C, and C-A-B count as 3 closed 2-paths.
-
 ![Clustering Coefficient](http://i.imgur.com/dgAFDtX.jpg)
 
 * Transitivity ([Newman, 2003][10])
