@@ -60,6 +60,7 @@ The degree to which nodes tend to cluster together. Essentially calculated as th
 The degree to which two-paths tend to be closed (form a triangle). Differs from clustering coefficient only in the way graph nodes are sampled during calculation. Clustering coefficient is a more common metric in contemporary network science. [http://pages.stat.wisc.edu/~karlrohe/netsci/MeasuringTrianglesInGraphs.pdf][(more info)]
 
 * __Local efficiency__ ([Latora and Marchiori, 2001][9]).
+The local efficiency of a node is defined as the inverse of the average shortest path length between all of its neighbors. This value ranges from 0 to 1, with 1.0 representing an ideally efficient node.
 
 * __Modularity__ ([Newman, 2006][11]).
 Modularity is a quality function whose optimization represents partitioned communities, or clusters, or points. Newman's method computes eigenvectors over an adjacency matrix, resulting in a "modularity matrix" for spectral analysis. Analogous to k-means and k-nearest neighbors clustering. 
@@ -70,17 +71,32 @@ Modularity is a quality function whose optimization represents partitioned commu
 
 ### Measures of Centrality
 * __Closeness centrality__ ([Freeman, 1978][6]).
+
+
 * __Betweenness centrality__ ([Freeman, 1978][6]).
+
+
 * __Within-module degree z-score__ ([Guimera and Amaral, 2005][13]).
+
+
 * __Participation coefficient__ ([Guimera and Amaral, 2005][13]).
+
 
 [13]:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151742/
 
 ## Measures of Resilience
 * __Degree distribution__ ([Barabasi and Albert, 1999][14]).
+
+
 * __Average neighbor degree__ ([Pastor-Satorras et al., 2001][15]).
+
+
 * __Assortativity coefficient__ ([Newman, 2002][16]).
+
+
 * __Measure of network "small-worldness"__ ([Humphries and Gurney, 2008][17]).
+
+
 
 [14]:http://barabasi.com/f/67.pdf
 [15]:http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.3200
@@ -91,7 +107,6 @@ Modularity is a quality function whose optimization represents partitioned commu
 - ~~Create Dropbox link for reference literature~~
 - ~~Review literature~~
 - ~~Determine node and graph level indices (NLIs; GLIs) of topical interest~~
-- Identify knowledge gaps in the field
 - Centralize prereqs for learning these techniques
 - List all assumptions of input data when using this software
 - Decide on input and output filetypes
@@ -102,16 +117,16 @@ Modularity is a quality function whose optimization represents partitioned commu
 - Contextual links to more information about each measure
 - Save output as file
 - Automatic atlas-based ROI generation
-- Freesurfer atlases
-- AAL
-- Harvard/Oxford
-- Dynamic network measures?
+-- Freesurfer atlases
+-- AAL
+-- Harvard/Oxford
+-- Dynamic network measures?
 - Maybe just cross-sectional tests for modulation
 - visualization (the big one)
-- nodes AND edges
-- enable colorized factors (network subcomponents?)
-- 3D rotation would be nice
-- [Brain Net Viewer on NITRC][18]
+-- nodes AND edges
+-- enable colorized factors (network subcomponents?)
+-- 3D rotation would be nice
+-- [Brain Net Viewer on NITRC][18]
 - [Graph Analysis Toolbox Software (for Matlab) on NITRC][19]
 
 [18]:https://www.nitrc.org/projects/bnv
