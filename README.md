@@ -71,32 +71,24 @@ Modularity is a quality function whose optimization represents partitioned commu
 
 ### Measures of Centrality
 * __Closeness centrality__ ([Freeman, 1978][6]).
-
+A measure determining how close a node is to all other nodes in the graph. Calculated as the sum of the shortest paths between a node and all other nodes.
 
 * __Betweenness centrality__ ([Freeman, 1978][6]).
-
+The fraction of all shortest paths in the network that contain a given node. Nodes with high values of betweenness centrality participate in a large number of shortest paths.
 
 * __Within-module degree z-score__ ([Guimera and Amaral, 2005][13]).
-
+A within-module version of degree centrality. Requires a previously determined community/modularity structure (see above).
 
 * __Participation coefficient__ ([Guimera and Amaral, 2005][13]).
-
+A measure of diversity of intermodular connections of individual nodes. Requires a previously determined community/modularity structure (see above).
 
 [13]:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151742/
 
-## Measures of Resilience
+### TODO: Measures of Resilience
 * __Degree distribution__ ([Barabasi and Albert, 1999][14]).
-
-
 * __Average neighbor degree__ ([Pastor-Satorras et al., 2001][15]).
-
-
 * __Assortativity coefficient__ ([Newman, 2002][16]).
-
-
 * __Measure of network "small-worldness"__ ([Humphries and Gurney, 2008][17]).
-
-
 
 [14]:http://barabasi.com/f/67.pdf
 [15]:http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.3200
